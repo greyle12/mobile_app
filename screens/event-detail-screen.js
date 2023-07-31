@@ -13,6 +13,7 @@ const EventDetailScreen = () => {
             headerLeft: () => (
                 <HeaderBackButton
                     tintColor="white"
+                    label="previous"
                     onPress={()=> navigation.goBack()} 
                 />
             )
